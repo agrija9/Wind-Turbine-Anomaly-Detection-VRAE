@@ -21,8 +21,7 @@ of up to 96% on test data. For the multiple-class problem
 (one normal versus multiple abnormal classes), we present a
 qualitative analysis of the low-dimensional learned latent space,
 providing insights into the capacities of our approach to tackle
-such problem. The code to reproduce this work can be found
-here https://github.com/agrija9/Wind-Turbine-Anomaly-Detection-VRAE.
+such problem.
 
 
 ## Installation Requirements
@@ -240,11 +239,7 @@ srun -p gpu -n 1  --gres gpu:v100:2 --cpus-per-task=1 --mem-per-cpu=32gb --pty /
 
 ## Model Outputs
 
-Comment...
-
-After training the model, a file with the model parameters is generated.
-
-Also, a set of images that project latent vectors into 2D are generated automatically.
+After training the model, a file with the model parameters is generated. Also, a set of images that project latent vectors into 2D are generated automatically.
 
 
 ## Results
@@ -266,17 +261,19 @@ Also, a set of images that project latent vectors into 2D are generated automati
 <!--![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_3_features_6_epochs_1500_batches_64_hidden_size_128_latent_length_5_k_means.jpg)-->
 
 ### Multiple Classes
+<img src="./images/results_gitlab/z_run_kernel_PCA.png" alt="drawing" width="600"/>
+<!--![plot](./images/results_gitlab/z_run_kernel_PCA.png)-->
 
-![plot](./images/results_gitlab/z_run_kernel_PCA.png)
-![plot](./images/results_gitlab/z_run_tsne.png)
+<img src="./images/results_gitlab/z_run_tsne.png" alt="drawing" width="600"/>
+<!--![plot](./images/results_gitlab/z_run_tsne.png)-->
 
 ## Future Work
 
 * Improve clustering on multiple classes case (there is an overlap between zone 2 and zone 3 as shown above)
-* Train model on new dataset (different wind conditions, refer to Ivan Lecei for new generated dataset)
+* Train model on new dataset (different simulation conditions)
 * Improve time series reconstructions
 
-## References
+## Related Work
 
-* [Diederik P Kingma, Max Welling. Auto-Encoding Variational Bayes. December 2013](https://arxiv.org/abs/1312.6114)
-* [Generative Models for the Analysis of Dynamical Systems with Applications](./alan_report/PreciadoA-RnDReport.pdf)
+<!--* [Diederik P Kingma, Max Welling. Auto-Encoding Variational Bayes. December 2013](https://arxiv.org/abs/1312.6114)-->
+* [Generative Models for the Analysis of Dynamical Systems with Applications](https://drive.google.com/file/d/1kExl70eXunww9F64kPq7h28cN4oee007/view)
