@@ -254,9 +254,11 @@ Also, a set of images that project latent vectors into 2D are generated automati
 
 #### Latent Space 2D Projections
 
-<img src="./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_comp_c_1_comp_d_3_pca.png" alt="drawing" width="500"/>
-![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_comp_c_1_comp_d_3_pca.png =100x20)
-![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_tsne.png =100x20)
+<img src="./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_comp_c_1_comp_d_3_pca.png" alt="drawing" width="600"/>
+<!--![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_comp_c_1_comp_d_3_pca.png =100x20)-->
+
+<img src="./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_tsne.png" alt="drawing" width="600"/>
+<!--![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_tsne.png =100x20)-->
 
 #### Unsupervised Clustering in Latent Space
 
