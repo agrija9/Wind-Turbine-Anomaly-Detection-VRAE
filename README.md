@@ -4,7 +4,7 @@ Paper: [Anomaly Detection of Wind Turbine Time Series using Variational Recurren
 
 ## Abstract
 
-Abstract—Ice accumulation in the blades of wind turbines can
+Ice accumulation in the blades of wind turbines can
 cause them to describe anomalous rotations or no rotations at all,
 thus affecting the generation of electricity and power output. In
 this work, we investigate the problem of ice accumulation in wind
@@ -55,7 +55,7 @@ amount of ice mass is x − y − z. For example, a configuration
 0.4 − 0.6 − 0.8 implies 0.4 kg of ice in zone one, 0.6 kg in
 zone two and 0.8 kg in zone three.
 
-For further questions about the data, contact Ivan Lecei (ivan.lecei@scai.fraunhofer.de).
+<!--For further questions about the data, contact Ivan Lecei (ivan.lecei@scai.fraunhofer.de).-->
 
 
 ## Data Pre-processing
@@ -254,7 +254,7 @@ Also, a set of images that project latent vectors into 2D are generated automati
 
 #### Latent Space 2D Projections
 
-![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_comp_c_1_comp_d_3_pca.png){width=50%}
+![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_comp_c_1_comp_d_3_pca.png){width=20%}
 ![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_1_features_6_epochs_2000_batches_64_hidden_size_90_latent_length_20_tsne.png){width=50%}
 
 #### Unsupervised Clustering in Latent Space
