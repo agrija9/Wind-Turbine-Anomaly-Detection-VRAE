@@ -262,7 +262,8 @@ Also, a set of images that project latent vectors into 2D are generated automati
 
 #### Unsupervised Clustering in Latent Space
 
-![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_3_features_6_epochs_1500_batches_64_hidden_size_128_latent_length_5_k_means.jpg)
+<img src="./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_3_features_6_epochs_1500_batches_64_hidden_size_128_latent_length_5_k_means.jpg" alt="drawing" width="600"/>
+<!--![plot](./images/results_gitlab/single_vrae_classes_IceDetection_ieckai_zone_3_features_6_epochs_1500_batches_64_hidden_size_128_latent_length_5_k_means.jpg)-->
 
 ### Multiple Classes
 
