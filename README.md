@@ -163,12 +163,12 @@ class Decoder(nn.Module):
 ## Train Model
 
 
-The ```main/ice_detection_vrae_multiple_classes.py``` script calls the VRAE model and trains it on the wind turbine data. It takes 1 hour to train for 500 epochs using an NVIDIA Tesla V100 GPU. 
+The ```main.py``` script calls the VRAE model and trains it on the wind turbine data. It takes 1 hour to train for 500 epochs using an NVIDIA Tesla V100 GPU. 
 
 To run this model, open a terminal, activate your conda environment and type
 
 ```
-ice_detection_vrae_multiple_classes.py -df 1 --hidden_size_1 128 --latent_length 5 -bs 64 -ne 100
+python main.py -df 1 --hidden_size_1 128 --latent_length 5 -bs 64 -ne 100
 ```
 
 The following are some hyperparameters that can be modified to train the model
