@@ -105,7 +105,6 @@ class Encoder(nn.Module):
         self.hidden_layer_depth = hidden_layer_depth
         self.latent_length = latent_length
 
-        # Use nn.module from PyTorch
         if block == 'LSTM':
             self.model = nn.LSTM(self.number_of_features, self.hidden_size_1,
                                  self.hidden_layer_depth, dropout = dropout,
@@ -180,7 +179,7 @@ The following are some hyperparameters that can be modified to train the model
 * ```--n_epochs``` number of epochs
 
 
-## Train Model in Cluster (Leo)
+<!--## Train Model in Cluster (Leo)
 
 In order to train this model in the cluster, transfer the code, data and also the following bash script (```ice_detection_vrae_multiple_classes.sh```)
 
@@ -235,7 +234,7 @@ The above bash script can be run in the GPU node of the cluster with the followi
 
 ```
 srun -p gpu -n 1  --gres gpu:v100:2 --cpus-per-task=1 --mem-per-cpu=32gb --pty /bin/bash ice_detection_vrae_multiple_classes.sh
-```
+```-->
 
 ## Model Outputs
 
